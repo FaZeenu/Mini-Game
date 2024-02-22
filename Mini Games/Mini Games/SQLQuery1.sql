@@ -1,0 +1,5 @@
+﻿CREATE TABLE Login (
+    ID INT PRIMARY KEY IDENTITY(1,1),
+    Username VARCHAR(MAX) NULL,
+    Password VARCHAR(MAX) NULL
+)
